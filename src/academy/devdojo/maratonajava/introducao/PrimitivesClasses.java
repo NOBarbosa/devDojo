@@ -13,10 +13,13 @@ public class PrimitivesClasses {
         boolean verdadeiro = true;
         boolean falso = false;
         char genero = 'F';
+        String msg = "uma msg";
+        //Para o Java Strings são classes, e precisamos utilizar aspas duplas
+        //crtl+d duplica linha
 
-//        System.out.println("idade igual a " + age);
-//        System.out.println("idade igual a " + age);
-//        System.out.println("idade igual a " + age);
+        //sout => System.out.println();
+        System.out.println("idade igual a " + age);
+        System.out.println(msg);
 
 
     }
