@@ -8,5 +8,9 @@ public class ExercicioTiposPrimitivos {
         String data = "05/05/2024";
         String relatorio  ="Eu " + nome+", morando no endereço " + endereco + " confirmo que recebi o salario de R$" + salario+ " na data "+ data;
         System.out.println(relatorio);
+        double num1 = 13;
+        double num2 = 4;
+
+        System.out.println(num1 % num2);
     }
 }
